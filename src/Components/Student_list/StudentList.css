@@ -1,0 +1,23 @@
+.student-list {
+    background: white;
+    padding: 0.5em;
+}
+.save-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 2em;
+}
+.save-btn button {
+    border-radius: 100px;
+    background-color: #5271ff;
+    color: white;
+    border: none;
+    padding: 0.5em 2.7em;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+button:hover {
+    background: #3f58c6;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+.student-element {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8em 1em;
+    padding: 1.2em 1em;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+.attendance {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.attendance-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1em;
+}
+.attendance-options input {
+    margin: 3px 0 0 10px;
+}
+#present {
+    color: green;
+    font-weight: 500;
+}
+#absent {
+    color: red;
+    font-weight: 500;
+}
+.student-data {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    .student-element {
+        margin: 0.8em 0.2em;
+    }
+    .student-data {
+        flex-direction: column;
+    }
+    .attendance {
+        width: 50%;
+        margin-right: 1em;
+    }
+    .attendance-options {
+        margin-right: 0.1em;
+    }
+    .attendance-options input {
+        margin: 3px 0 0 5px;
+    }
+    .student-data .roll-no {
+        font-weight: bold;
+    }
+}
